@@ -1,0 +1,134 @@
+macit angular$ npm install @angular/cli
+
+> fsevents@1.2.7 install /Users/jprosser/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download
+[fsevents] Success: "/Users/jprosser/node_modules/fsevents/lib/binding/Release/node-v64-darwin-x64/fse.node" is installed via remote
+npm WARN saveError ENOENT: no such file or directory, open '/Users/jprosser/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/Users/jprosser/package.json'
+npm WARN @material-ui/core@3.6.2 requires a peer of react@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @material-ui/core@3.6.2 requires a peer of react-dom@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @material-ui/utils@3.0.0-alpha.0 requires a peer of react@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @material-ui/utils@3.0.0-alpha.0 requires a peer of react-dom@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-event-listener@0.6.4 requires a peer of react@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-transition-group@2.5.1 requires a peer of react@>=15.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-transition-group@2.5.1 requires a peer of react-dom@>=15.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN recompose@0.30.0 requires a peer of react@^0.14.0 || ^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN jprosser No description
+npm WARN jprosser No repository field.
+npm WARN jprosser No README data
+npm WARN jprosser No license field.
+
++ @angular/cli@7.3.2
+added 223 packages from 125 contributors and audited 62748 packages in 28.04s
+found 4023 vulnerabilities (643 low, 2613 moderate, 767 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+macit angular$ ls
+./	../
+macit angular$ npm audit fix
+npm ERR! code EAUDITNOPJSON
+npm ERR! audit No package.json found: Cannot audit a project without a package.json
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jprosser/.npm/_logs/2019-02-20T06_32_11_879Z-debug.log
+macit angular$ ls
+./	../
+macit angular$ which ng
+/Users/jprosser/node_modules/.bin/ng
+macit angular$ ng new my-app
+? Would you like to add Angular routing? No
+? Which stylesheet format would you like to use? CSS
+CREATE my-app/README.md (1022 bytes)
+CREATE my-app/.editorconfig (246 bytes)
+CREATE my-app/.gitignore (629 bytes)
+CREATE my-app/angular.json (3807 bytes)
+CREATE my-app/package.json (1305 bytes)
+CREATE my-app/tsconfig.json (435 bytes)
+CREATE my-app/tslint.json (1621 bytes)
+CREATE my-app/src/favicon.ico (5430 bytes)
+CREATE my-app/src/index.html (292 bytes)
+CREATE my-app/src/main.ts (372 bytes)
+CREATE my-app/src/polyfills.ts (2841 bytes)
+CREATE my-app/src/styles.css (80 bytes)
+CREATE my-app/src/test.ts (642 bytes)
+CREATE my-app/src/browserslist (388 bytes)
+CREATE my-app/src/karma.conf.js (1019 bytes)
+CREATE my-app/src/tsconfig.app.json (166 bytes)
+CREATE my-app/src/tsconfig.spec.json (256 bytes)
+CREATE my-app/src/tslint.json (314 bytes)
+CREATE my-app/src/assets/.gitkeep (0 bytes)
+CREATE my-app/src/environments/environment.prod.ts (51 bytes)
+CREATE my-app/src/environments/environment.ts (662 bytes)
+CREATE my-app/src/app/app.module.ts (314 bytes)
+CREATE my-app/src/app/app.component.css (0 bytes)
+CREATE my-app/src/app/app.component.html (1120 bytes)
+CREATE my-app/src/app/app.component.spec.ts (978 bytes)
+CREATE my-app/src/app/app.component.ts (210 bytes)
+CREATE my-app/e2e/protractor.conf.js (752 bytes)
+CREATE my-app/e2e/tsconfig.e2e.json (213 bytes)
+CREATE my-app/e2e/src/app.e2e-spec.ts (635 bytes)
+CREATE my-app/e2e/src/app.po.ts (251 bytes)
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+
+> fsevents@1.2.7 install /Users/jprosser/Projects/webui/angular/my-app/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download
+[fsevents] Success: "/Users/jprosser/Projects/webui/angular/my-app/node_modules/fsevents/lib/binding/Release/node-v64-darwin-x64/fse.node" is installed via remote
+
+> node-sass@4.11.0 install /Users/jprosser/Projects/webui/angular/my-app/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.11.0/darwin-x64-64_binding.node
+Download complete  ⸩ ⠋ :
+Binary saved to /Users/jprosser/Projects/webui/angular/my-app/node_modules/node-sass/vendor/darwin-x64-64/binding.node
+Caching binary to /Users/jprosser/.npm/node-sass/4.11.0/darwin-x64-64_binding.node
+
+> node-sass@4.11.0 postinstall /Users/jprosser/Projects/webui/angular/my-app/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Users/jprosser/Projects/webui/angular/my-app/node_modules/node-sass/vendor/darwin-x64-64/binding.node
+Testing binary
+Binary is fine
+added 1181 packages from 1035 contributors and audited 41386 packages in 37.587s
+found 2 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+    Successfully initialized git.
+macit angular$ ls
+./	../	my-app/
+macit angular$ cd my-app/
+macit my-app$ ls
+./			README.md		package.json
+../			angular.json		src/
+.editorconfig		e2e/			tsconfig.json
+.git/			node_modules/		tslint.json
+.gitignore		package-lock.json
+macit my-app$ ng serve --open
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+                                                                                        u Date: 2019-02-20T06:34:20.714Z
+Hash: c881447fea04b869ea15
+Time: 8908ms
+chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]
+chunk {main} main.js, main.js.map (main) 9.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 236 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.51 MB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                         pDate: 2019-02-20T06:48:41.731Z - Hash: 03ca93f18e1139c5b104 - Time: 2410ms
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 9.82 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                         pDate: 2019-02-20T06:49:01.398Z - Hash: a6ad754b0a4cb1ab6d5b - Time: 138ms
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 9.82 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+                                                                                         pDate: 2019-02-20T06:49:31.841Z - Hash: d66cc54c2758a36a272d - Time: 138ms
+5 unchanged chunks
+chunk {main} main.js, main.js.map (main) 10.1 kB [initial] [rendered]
+ℹ ｢wdm｣: Compiled successfully.
